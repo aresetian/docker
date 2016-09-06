@@ -1,0 +1,9 @@
+web:
+  build: .
+  dockerfile: Dockerfile
+  links:
+    - redis
+  ports:
+    - "8888:80"
+redis:
+  image: redis
