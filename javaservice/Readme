@@ -1,0 +1,4 @@
+Para crear el target y el jar necesario ejecutar estos comandos
+
+mvn clean test-compile
+mvn install
